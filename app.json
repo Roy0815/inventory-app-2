@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "inventory-app-2",
+    "name": "DAS INVENTAR",
     "slug": "inventory-app-2",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,10 +24,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.roy0815.inventoryapp2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "929ce322-668e-4c86-ae02-1f19a2214991"
+      }
     }
   }
 }
